@@ -207,3 +207,145 @@ a {
  color: #fff;
  text-shadow: none;
 }
+
+.bg_header4 {
+  background-image: url(https://artisbiotech.com/images/bg_header4.jpg);
+  height: 255px;
+}
+
+.white_section.page_title h1, .white_section.page_title .breadcrumbs, .white_section.page_title .breadcrumbs a, .white_section.page_title .breadcrumbs a:hover {
+  color: #fff;
+}
+
+.white_section {
+  color: rgba(255, 255, 255, 0.7);
+}
+[class*=" enar_parallax"] {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% top;
+  
+}
+.content_section {
+  position: relative;
+}
+.page_title.has_bg_image::after {
+  background: rgba(255, 255, 255, 0.1);
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.content, .container {
+  margin: 0 auto;
+  max-width: 1170px;
+  position: relative;
+  width: 100%;
+}
+.content {
+  padding: 0 15px;
+}
+
+.white_section.page_title h1, .white_section.page_title .breadcrumbs, .white_section.page_title .breadcrumbs a, .white_section.page_title .breadcrumbs a:hover {
+  color: #fff;
+}
+.content_section {
+  position: relative;
+}
+.row_spacer {
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+.contact_details_row .c_con {
+  position: relative;
+  padding-left: 0px;
+}
+.c_con .c_title {
+  display: block;
+  font-size: 16px;
+  color: #c5373d;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.c_detail {
+  line-height: 28px;
+  display: block;
+}
+.c_detail .c_name {
+  display: inline-block;
+  color: #324545;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+.c_detail .c_desc {
+  color: #555;
+}
+.contact_details_row:last-child {
+  margin-bottom: 0;
+}
+.contact_details_row .c_con {
+  position: relative;
+  padding-left: 0px;
+}
+.title1 {
+  color: #c5373d;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 13px;
+  font-family: "Oswald", "Open Sans", sans-serif;
+  line-height: 33px;
+}
+.upper {
+  text-transform: uppercase;
+}
+.upper {
+  text-transform: uppercase;
+}
+.form_row:first-child {
+  margin-top: 0;
+}
+.form_row {
+  margin-top: 27px;
+}
+.hm_requires_star {
+  color: #e74c3c;
+}
+.form_row .hm_input_text {
+  color: #324545;
+  width: 80%;
+  font-weight: 600;
+}
+input[type="text"], input[type="date"], input[type="email"], input[type="number"], textarea, .form_row input[type="file"], .lfc_user_row input[type="password"] {
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  color: #666;
+  font-size: 13px;
+  background: #fff;
+  outline: none;
+}
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+.form_row label:not(.orderby_label) {
+  float: left;
+  display: block;
+  width: 20%;
+  color: #555;
+  line-height: 39px;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
