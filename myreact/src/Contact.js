@@ -16,7 +16,7 @@ function Contact() {
                 </div>
             </section>
 
-            <section className="content_section">
+            <section className="content_section mt-5">
                 <div className="content row_spacer no_padding">
                     <div className="rows_container clearfix">
                         <div className="col-md-6">
