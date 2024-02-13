@@ -416,3 +416,8 @@ button, input, optgroup, select, textarea {
   font: inherit;
   color: inherit;
 }
+a {
+  color: #d36065 !important;
+  text-decoration: none;
+  outline: none;
+}
